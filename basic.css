@@ -9,7 +9,7 @@ body {
     background-color: #383434;
     
 }
-
+/*header css börjar här*/
 header {
     background-color: black;
 	display: flex;
@@ -43,9 +43,13 @@ header nav a:hover {
 	
 }
 
+/*header css slutar här*/
+
 main * {
     color: white;
 }
+
+/* footer css börjar här*/
 
 footer {
     background-color: black;
@@ -86,3 +90,4 @@ ul{
 	display: flex;
 	justify-content: space-between;
 }
+/*footer css slutar här*/
