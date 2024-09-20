@@ -1,6 +1,8 @@
 * {margin: 0;
     padding: 0;
     box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -10,13 +12,35 @@ body {
 
 header {
     background-color: black;
-	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	font-family: 
 
+
+}
+.company-name {
+	color: #c567e5;
+	font-weight: bold;
+	font-size: 5em;
+	cursor: pointer;
+	
 }
 
 header nav a {
+	padding: 2em;
     text-decoration: none;
+	font-size: 3em;
     color: #c567e5;
+	
+}
+header nav a:hover {
+	padding: 2em;
+    text-decoration: none;
+	font-size: 3em;
+    color: #fddc1f;
+	
 }
 
 main * {
@@ -25,8 +49,37 @@ main * {
 
 footer {
     background-color: black;
+	padding: 3em;
+	margin: auto;
 }
 
-footer p {
+ul{
+	list-style: none;
+}
+
+.main-footer-container{
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0em 4em;
+	font-size: 1.5em;
+}
+
+
+.contact-container {
     color: #c567e5;
+	padding-right: 8em;
+}
+
+.opening-hours {
+	color: #c567e5;
+	
+}
+.socials-container{
+	display: flex;
+	
+	
 }
