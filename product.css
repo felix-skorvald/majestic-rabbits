@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* tilfällig kod ovanför här! */
+
+.pictures {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.pictures img {
+    width: 300px;
+}
+
+.product-main {
+    display:flex;
+    color:white;
+
+}
+
+.product-article {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    max-width: 50%;
+
+}
+
+/* Denna koden kan vi använda till knappen på main sen? */
+
+button {
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.5em;
+    padding:2em;
+    margin:6em;
+}
