@@ -1,36 +1,124 @@
-* {
+* {margin: 0;
+    padding: 0;
     box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background-color: black;
-}
-
-/* tilfällig kod ovanför här! */
-
-.pictures {
+    background-color: #383434;
     
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
 }
 
-.pictures img {
-    width: 300px;
+header {
+    background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	font-family: 
+
+
 }
+.company-name {
+	color: #c567e5;
+	font-weight: bold;
+	font-size: 5em;
+	cursor: pointer;
+	
+}
+
+header nav a {
+	padding: 2em;
+    text-decoration: none;
+	font-size: 3em;
+    color: #c567e5;
+	
+}
+header nav a:hover {
+	padding: 2em;
+    text-decoration: none;
+	font-size: 3em;
+    color: #fddc1f;
+	
+}
+
+main * {
+    color: white;
+}
+
+footer {
+    background-color: black;
+	padding: 3em;
+	margin: auto;
+}
+
+ul{
+	list-style: none;
+}
+
+.main-footer-container{
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0em 4em;
+	font-size: 1.5em;
+}
+
+.container-container{
+	display: flex;
+	
+}
+
+.contact-container {
+    color: #c567e5;
+	padding-right: 2em;
+}
+
+.opening-hours {
+	color: #c567e5;
+	
+}
+.socials-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Här ovfanför är header och footer */
+
 
 .product-main {
     display:flex;
     color:white;
-
 }
+
+.pictures {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 0%;
+}
+
+.pictures img {
+    width: 300px;
+    height: 300px;
+}
+
+.pictures img:first-child {
+    width: 400px;
+    height: 400px;
+}
+
 
 .product-article {
     display: flex;
     flex-direction: column;
     padding: 3em;
     max-width: 50%;
-
 }
 
 /* Denna koden kan vi använda till knappen på main sen? */
@@ -41,4 +129,14 @@ button {
     border-radius: 0.5em;
     padding:2em;
     margin:6em;
+}
+
+@media (max-width: 500px) {
+    .product-main {
+        flex-direction: column;
+    }
+
+    .product-article {
+        max-width: 100%;
+    }
 }
