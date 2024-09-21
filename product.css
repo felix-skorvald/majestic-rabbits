@@ -95,30 +95,47 @@ ul{
     color:white;
 }
 
-.pictures {  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    padding: 0%;
+.pictures {
+    border: 3px solid hotpink;
+    width: 30em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.pictures img {
-    width: 300px;
-    height: 300px;
+
+.pictures>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.pictures img:first-child {
-    width: 400px;
-    height: 400px;
+.pictures>img:first-child {
+    grid-column: 1 span 2 ;
+    grid-row: 1;
+    
 }
+
 
 
 .product-article {
     display: flex;
     flex-direction: column;
-    padding: 3em;
-    max-width: 50%;
+    padding: 5em;
+
+}
+
+.product-article h3 {
+    padding:  2em 0 0 2em;
+}
+
+.product-article ul {
+    padding:  1em 0 3em 3em;
+}
+
+ul>li {
+    padding: 0.5em
 }
 
 /* Denna koden kan vi använda till knappen på main sen? */
@@ -136,7 +153,9 @@ button {
         flex-direction: column;
     }
 
-    .product-article {
-        max-width: 100%;
+    .pictures {
+        flex-direction: column;
     }
+
+
 }
