@@ -33,14 +33,14 @@ header nav a {
 	padding: 2em;
 	font-family: "Montagu Slab", serif;
     text-decoration: none;
-	font-size: 2em;
+	font-size: 1.6em;
     color: #c567e5;
 	
 }
 header nav a:hover {
 	padding: 2em;
     text-decoration: none;
-	font-size: 2em;
+	font-size: 1.6em;
     color: #fddc1f;
 	
 }

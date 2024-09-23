@@ -1,0 +1,115 @@
+/*header css börjar här*/
+header {
+    background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	
+}
+.company-name {
+	color: #c567e5;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+	cursor: pointer;
+	
+}
+
+header nav a {
+	padding: 2em;
+	font-family: "Montagu Slab", serif;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #c567e5;
+	
+}
+header nav a:hover {
+	padding: 2em;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #fddc1f;
+	
+}
+
+.cart {
+	margin-right: 3em;
+	cursor:pointer;
+}
+
+/*header css slutar här*/
+/* footer css börjar här*/
+
+footer {
+    background-color: black;
+	padding: 3em;
+	margin: auto;
+	font-family: "Montagu Slab", serif;
+}
+
+ul{
+	list-style: none;
+}
+
+.main-footer-container{
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0em 2em;
+	
+	
+}
+
+.main-footer-container h3{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+.container-container{
+	display: flex;
+	cursor:pointer;
+}
+
+.contact-container {
+    color: #c567e5;
+	padding-right: 2em;
+	
+}
+
+
+
+.contact-container li:hover {
+    
+	color: #fddc1f;
+	
+}
+
+.opening-hours {
+	color: #c567e5;
+	margin-left: 1em;
+	
+}
+
+.opening-hours p:hover {
+	color: #fddc1f;
+	
+}
+
+.socials-container{
+	display: flex;
+	justify-content: space-between;
+	cursor:pointer;
+}
+.insta {
+	
+	margin: 1em;
+}
+
+
+/*footer css slutar här*/
