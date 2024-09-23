@@ -55,11 +55,14 @@ main * {
     color: white;
 }
 
+/* footer css börjar här*/
+
 footer {
     background-color: black;
-	padding: 2em;
+	padding: 3em;
 	margin: auto;
 	font-family: "Montagu Slab", serif;
+	flex-wrap: wrap;
 }
 
 ul{
@@ -73,9 +76,9 @@ ul{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0em 1em;
 	
 	
+	flex-wrap: wrap;
 }
 
 .main-footer-container h3{
@@ -91,7 +94,7 @@ ul{
 
 .contact-container {
     color: #c567e5;
-	padding-right: 2em;
+	padding-right: 0.5em;
 	
 }
 
@@ -105,7 +108,8 @@ ul{
 
 .opening-hours {
 	color: #c567e5;
-	margin-left: 1em;
+	
+	
 	
 }
 
@@ -123,6 +127,9 @@ ul{
 	
 	margin: 1em;
 }
+
+
+/*footer css slutar här*/
 
 /* Här ovfanför är header och footer */
 

@@ -16,6 +16,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5em 5%;
+	flex-wrap: wrap;
 	
 }
 .company-name {
@@ -35,6 +36,7 @@ header nav a {
     text-decoration: none;
 	font-size: 1.6em;
     color: #c567e5;
+	flex-wrap: wrap;
 	
 }
 header nav a:hover {
@@ -63,6 +65,7 @@ footer {
 	padding: 3em;
 	margin: auto;
 	font-family: "Montagu Slab", serif;
+	flex-wrap: wrap;
 }
 
 ul{
@@ -76,9 +79,9 @@ ul{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0em 2em;
 	
 	
+	flex-wrap: wrap;
 }
 
 .main-footer-container h3{
@@ -94,7 +97,7 @@ ul{
 
 .contact-container {
     color: #c567e5;
-	padding-right: 2em;
+	padding-right: 0.5em;
 	
 }
 
@@ -108,7 +111,8 @@ ul{
 
 .opening-hours {
 	color: #c567e5;
-	margin-left: 1em;
+	
+	
 	
 }
 
