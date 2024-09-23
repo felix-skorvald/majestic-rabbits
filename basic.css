@@ -31,15 +31,16 @@ header {
 
 header nav a {
 	padding: 2em;
+	font-family: "Montagu Slab", serif;
     text-decoration: none;
-	font-size: 3em;
+	font-size: 2em;
     color: #c567e5;
 	
 }
 header nav a:hover {
 	padding: 2em;
     text-decoration: none;
-	font-size: 3em;
+	font-size: 2em;
     color: #fddc1f;
 	
 }
@@ -60,6 +61,7 @@ footer {
     background-color: black;
 	padding: 3em;
 	margin: auto;
+	font-family: "Montagu Slab", serif;
 }
 
 ul{
@@ -74,7 +76,13 @@ ul{
 	justify-content: space-between;
 	align-items: center;
 	padding: 0em 2em;
+	
+}
+
+.main-footer-container h3{
 	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	
 }
 
 .container-container{
@@ -90,11 +98,12 @@ ul{
 .contact-container li:hover {
     
 	color: #fddc1f;
-	padding-right: 2em;
+	
 }
 
 .opening-hours {
 	color: #c567e5;
+	margin-left: 1em;
 	
 }
 
