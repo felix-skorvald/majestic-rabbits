@@ -16,9 +16,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5em 5%;
-	font-family: 
-
-
+	
 }
 .company-name {
 	color: #c567e5;
@@ -41,6 +39,10 @@ header nav a:hover {
 	font-size: 3em;
     color: #fddc1f;
 	
+}
+
+.cart {
+	margin-right: 3em;
 }
 
 /*header css slutar här*/
@@ -68,7 +70,7 @@ ul{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0em 4em;
+	padding: 0em 2em;
 	font-size: 1.5em;
 }
 
@@ -82,12 +84,31 @@ ul{
 	padding-right: 2em;
 }
 
+.contact-container li:hover {
+    
+	color: #fddc1f;
+	padding-right: 2em;
+}
+
 .opening-hours {
 	color: #c567e5;
 	
 }
+
+.opening-hours p:hover {
+	color: #fddc1f;
+	
+}
+
 .socials-container{
 	display: flex;
 	justify-content: space-between;
 }
+.insta {
+	
+	margin: 1em;
+}
+
+
 /*footer css slutar här*/
+
