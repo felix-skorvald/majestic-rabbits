@@ -47,6 +47,7 @@ header nav a:hover {
 
 .cart {
 	margin-right: 3em;
+	cursor:pointer;
 }
 
 /*header css slutar här*/
@@ -77,6 +78,7 @@ ul{
 	align-items: center;
 	padding: 0em 2em;
 	
+	
 }
 
 .main-footer-container h3{
@@ -87,13 +89,16 @@ ul{
 
 .container-container{
 	display: flex;
-	
+	cursor:pointer;
 }
 
 .contact-container {
     color: #c567e5;
 	padding-right: 2em;
+	
 }
+
+
 
 .contact-container li:hover {
     
@@ -115,6 +120,7 @@ ul{
 .socials-container{
 	display: flex;
 	justify-content: space-between;
+	cursor:pointer;
 }
 .insta {
 	
