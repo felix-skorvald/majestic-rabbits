@@ -26,7 +26,7 @@ header {
 }
 
 header nav a {
-	padding: 2em;
+	margin: 2em;
 	font-family: "Montagu Slab", serif;
     text-decoration: none;
 	font-size: 1.6em;
@@ -35,7 +35,7 @@ header nav a {
 	
 }
 header nav a:hover {
-	padding: 2em;
+	margin: 2em;
     text-decoration: none;
 	font-size: 1.6em;
     color: #fddc1f;
