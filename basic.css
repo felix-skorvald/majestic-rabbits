@@ -36,10 +36,6 @@ header {
 	color: #fddc1f;
 }
 
-nav {
-    display: flex;
-}
-
 header nav a {
 	margin: 2em;
 	font-family: "Montagu Slab", serif;
@@ -72,10 +68,11 @@ main {
     color: white;
     background-color: rgba(60, 60, 60, 0.5);
     margin: 2em;
+    padding: 6em;
     display: flex;
     flex-direction: column;
-
     align-items: center;
+    padding-bottom: 45em;
 }
 .text-container {
     padding:2em;
@@ -89,13 +86,19 @@ main {
     font-size: x-large; 
 }
 button {
-    background-color: #ba74de;
-    color: #393434;
-    font-size: xx-large;
-    border-radius: 10px;
-    margin-top:2em;
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 38px;
+    padding:0.2em;
+    margin:1em;
+    transition: background-color 0.1s;
 }
 
+button:hover {
+    background-color: rgb(31, 160, 225);
+    transition: background-color 0.1s;
+}
 /* footer css börjar här*/
 
 footer {
@@ -177,7 +180,12 @@ ul{
         flex-direction: column;
     }
 
+    main {
+        padding: 0;
+    }
+
     nav {
+        display: flex;
         flex-direction: column;
     }
     

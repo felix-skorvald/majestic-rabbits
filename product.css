@@ -162,10 +162,6 @@ ul{
     max-height: 16em;
 }
 
-.pictures>img:last-child {
-
-}
-
 .product-article {
     max-width: 60vw;
     display: flex;

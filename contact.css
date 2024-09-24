@@ -55,24 +55,33 @@ header nav a:hover {
 
 /*header css slutar här*/
 
+body {
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+
+main {
+    margin: 2em;
+    background-color: rgba(60, 60, 60, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
 .header-info h1 {
-    position: absolute;
-    left: 1em;
-    margin-top: 10em;
+
+    margin-top: 2em;
     color: white;
 }
 
 .header-info p {
-    position: absolute;
-    left: 2em;
-    margin-top: 25em;
+    margin-top: 2em;
     color: white;
 }
 
 .header-info img {
-    position: absolute;
-    left: 0;
     margin: 2em;
+    border-radius: 100%;
+    border: 3px solid black;
 }
 
 .header-info {
@@ -82,15 +91,13 @@ header nav a:hover {
     color: black;
 }
 
-.map .image {
-    position: absolute;
-    right: 0;
+.map img {
     margin: 2em;
+    border-radius: 10%;
+    border: 3px solid black;
 }
 
 .map .contact {
-    position: absolute;
-    right: 20em;
     margin: 2em;
     margin-top: 5em;
     color: white;
