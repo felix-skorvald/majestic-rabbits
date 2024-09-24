@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+body {
+    background-color: #393434;
+    font-family: roboto;
+}
+main {
+    color: white;
+    padding-left: 20em;
+    padding-bottom: 10em;
+}
+main .headphone {
+    width: 500px;
+    height: 500px;
+    padding: 10em;
+    padding-right: 25em;
+    padding-top: 15em;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+.namnet-på-lurarna {
+    font-size: xx-large;
+    padding-top: 8em;  
+}
+.text-lurarna {
+    font-size: x-large; 
+}
+button {
+    background-color: #ba74de;
+    color: #393434;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 0.5em;
+}
