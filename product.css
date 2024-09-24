@@ -29,7 +29,13 @@ header {
     font-style: normal;
     letter-spacing: 2px;
 	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.5em;
 	
+}
+
+.company-name:hover {
+	color: #fddc1f;
 }
 
 header nav a {
