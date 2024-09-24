@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #383434;
-    
+    background-image: url(img/2.jpg);
+    background-size: cover;
 }
 /*header css börjar här*/
 header {
@@ -70,22 +70,20 @@ main * {
 
 main {
     color: white;
-    padding-left: 20em;
-    padding-bottom: 10em;
-}
-main .headphone {
-    width: 500px;
-    height: 500px;
-    padding: 10em;
-    padding-right: 25em;
-    padding-top: 15em;
+    background-color: rgba(60, 60, 60, 0.5);
+    margin: 2em;
     display: flex;
-    justify-content: flex-end;
-    float: right;
+    flex-direction: column;
+
+    align-items: center;
 }
+.text-container {
+    padding:2em;
+}
+
 .namnet-på-lurarna {
     font-size: xx-large;
-    padding-top: 8em;  
+
 }
 .text-lurarna {
     font-size: x-large; 
@@ -95,7 +93,7 @@ button {
     color: #393434;
     font-size: xx-large;
     border-radius: 10px;
-    padding: 0.5em;
+    margin-top:2em;
 }
 
 /* footer css börjar här*/
