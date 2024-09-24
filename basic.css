@@ -36,6 +36,10 @@ header {
 	color: #fddc1f;
 }
 
+nav {
+    display: flex;
+}
+
 header nav a {
 	padding: 2em;
 	font-family: "Montagu Slab", serif;
@@ -170,3 +174,13 @@ ul{
 
 /*footer css slutar här*/
 
+@media (max-width: 720px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    
+}
