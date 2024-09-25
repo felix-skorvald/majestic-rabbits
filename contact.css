@@ -68,13 +68,12 @@ main {
 }
 
 .header-info h1 {
-
-    margin-top: 2em;
+    margin-top: auto;
     color: white;
 }
 
 .header-info p {
-    margin-top: 2em;
+    margin-top: auto;
     color: white;
 }
 
@@ -98,10 +97,19 @@ main {
 }
 
 .map .contact {
-    margin: 2em;
+    margin: auto;
     margin-top: 5em;
     color: white;
     padding: 1em;
+    line-height: 1.5;
+}
+
+.map .group {
+    margin: auto;
+    margin-top: 5em;
+    color: white;
+    padding: 1em;
+    line-height: 1.7;
 }
 
 
