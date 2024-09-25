@@ -39,16 +39,16 @@ header {
 }
 
 .map .image {
-    position: absolute;
+    position: flex;
     right: 0;
     margin: 2em;
 }
 
 .map .contact {
     position: absolute;
-    right: 20em;
+    right: 21em;
     margin: 2em;
     margin-top: 5em;
     color: white;
     padding: 1em;
-}
+} 
