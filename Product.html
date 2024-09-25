@@ -4,37 +4,67 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
 </head>
 <body>
-	<header></header>
-        <h1></h1>
+	<header>
+        <h1 class="company-name">FONY</h1>
         <nav>
-            <a href="#">Produkt</a>
-            <a href="#">Om oss</a>
-            <a href="#">Bli medlem</a>
-            <img src="#" alt="cart">
+            <a href="Product.html">Produkt</a>
+            <a href="contact.html">Om oss</a>
+            
+    
         </nav>
+		<img class="cart" src="img/Vector 1.svg" alt="cart">
     </header>
-	<main>
+	<main class="product-main">
 		<div class="pictures">
-			<img src="#" alt="headphones">
-			<img src="#" alt="headphones">
-			<img src="#" alt="headphones">
+			<img src="img/1.jpg" alt="headphones" class="big-pic">
+            <img src="img/2.jpg" alt="headphones" class="small-pic1">
+            <img src="img/3.jpg" alt="headphones" class="small-pic2">
+
+            </div>
 		</div>
-		<article>
-			<p></p>
-			<button></button>
+		<article class="product-article">
+			<p>Upplev ljudet som aldrig förr med våra stilrena on-ear-hörlurar, designade för både komfort och hög ljudkvalitet. Med sina mjuka öronkuddar och justerbara huvudband ger dessa hörlurar en perfekt passform för långvarig lyssning, oavsett om du är på väg till jobbet eller njuter av din favoritmusik hemma.</p>
+
+            <h3>Funktioner</h3>
+            <ul>
+                <li><b>Klart och Kraftfullt Ljud:</b> Utrustade med avancerade högtalarelement som levererar ett klart och balanserat ljud med djup bas och tydliga diskantfrekvenser. Perfekt för alla typer av musik och poddar.</li>
+                <li><b>Ergonomisk Design:</b> De vadderade öronkuddarna och det justerbara huvudbandet säkerställer en bekväm passform som minimerar tryck på öronen, vilket gör dem idealiska för långvarig användning.</li>
+                <li><b>Inbyggd Mikrofon och Kontroll:</b> Med den inbyggda mikrofonen kan du enkelt ta emot samtal och styra din musik utan att behöva plocka upp din telefon.</li>
+                <li><b>Trådlös Frihet: </b> Bluetooth-anslutning för trådlös bekvämlighet upp till 10 meter. Njut av musik och samtal utan att trassla med sladdar.</li>
+                <li><b>Lång Batteritid:</b> Upp till 20 timmars speltid på en enda laddning, så du kan njuta av din musik hela dagen.</li>
+                <li><b>Hopfällbar Design:</b> Lätta och hopfällbara för enkel förvaring och transport. Perfekta för resor eller för att ta med på språng.</li>
+            </ul>
+			<button>köp nu</button>
 		</article>
 	</main>
 	<footer>
-        <div class="contact-container">
-            <p></p>
-            <p></p>
-        </div>
-        <div class="socials-container">
-            <img src="#" alt="facebook">
-            <img src="#" alt="instagram">
-        </div>
+		<div class="main-footer-container">
+			<div class="container-container">
+			<div class="contact-container">
+				<ul>
+					<h3>Hitta oss</h3>
+					<li>Emailadress</li>
+					<li>Gatuadress</li>
+					<li>Telefonnummer</li>
+				</ul>
+			</div>
+			<div class="opening-hours">
+				<h3>Öppettider</h3>
+				<p>Mån , Fre 08-19</p>
+				<p>Lör 10-16</p>
+			</div>
+			</div>
+			<div class="socials-container">
+				<img class="fb" src="img/Vector 2.svg"></img>
+				<img class="insta" src="img/Vector 3.svg"></img>
+			</div>
+		</div>
     </footer>
 </body>
 </html>
