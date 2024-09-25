@@ -1,0 +1,195 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*header css börjar här*/
+header {
+    background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	flex-wrap: wrap;
+	
+}
+.company-name {
+	color: #c567e5;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+
+.company-name:hover {
+	color: #fddc1f;
+}
+
+header nav a {
+	margin: 2em;
+	font-family: "Roboto", sans-serif;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #c567e5;
+	flex-wrap: wrap;
+	
+}
+header nav a:hover {
+	margin: 2em;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #fddc1f;
+}
+
+.cart {
+	margin-right: 3em;
+	cursor:pointer;
+}
+
+/*header css slutar här*/
+
+body {
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+
+main {
+    margin: 2em;
+    background-color: rgba(60, 60, 60, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-info h1 {
+    margin-top: auto;
+    color: white;
+}
+
+.header-info p {
+    margin-top: auto;
+    color: white;
+}
+
+.header-info img {
+    margin: 2em;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.header-info {
+    text-align: start;
+    width: 650px;
+    height: 250px;
+    color: black;
+}
+
+.map img {
+    margin: 2em;
+    border-radius: 10%;
+    border: 3px solid black;
+}
+
+.map .contact {
+    width: 14em;
+    margin: auto;
+    margin-top: 1em;
+    color: white;
+    padding: 1em;
+    line-height: 1.5;
+}
+
+.map .group {
+    margin: auto;
+    margin-top: 1em;
+    color: white;
+    padding: 1em;
+    line-height: 1.7;
+}
+
+
+/* footer css börjar här*/
+
+footer {
+    background-color: black;
+	padding: 3em;
+	margin: auto;
+	font-family: "Montagu Slab", serif;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.main-footer-container{
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-footer-container h3{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.container-container{
+	display: flex;
+	cursor:pointer;
+}
+
+.contact-container {
+    color: #c567e5;
+	padding-right: 0.5em;
+}
+
+
+
+.contact-container li:hover {
+	color: #fddc1f;
+}
+
+.opening-hours {
+	color: #c567e5;
+}
+
+.opening-hours p:hover {
+	color: #fddc1f;
+}
+
+.socials-container{
+	display: flex;
+	justify-content: space-between;
+	cursor:pointer;
+}
+
+.insta {
+	margin: 1em;
+}
+
+
+/*footer css slutar här*/
+
+@media (max-width: 720px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
