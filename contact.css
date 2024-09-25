@@ -180,3 +180,19 @@ ul{
 
 
 /*footer css slutar här*/
+
+@media (max-width: 720px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
