@@ -6,18 +6,17 @@
 }
 
 body {
-    /* background-color: #383434; */
-    background-image: url(img/3.jpg);
+    background-image: url(/img/2.jpg);
     background-size: cover;
-    
 }
-
+/*header css börjar här*/
 header {
     background-color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5em 5%;
+	flex-wrap: wrap;
 	
 }
 .company-name {
@@ -38,11 +37,12 @@ header {
 }
 
 header nav a {
-	Margin: 2em;
+	margin: 2em;
 	font-family: "Roboto", sans-serif;
     text-decoration: none;
 	font-size: 1.6em;
     color: #c567e5;
+	flex-wrap: wrap;
 	
 }
 header nav a:hover {
@@ -58,10 +58,52 @@ header nav a:hover {
 	cursor:pointer;
 }
 
+/*header css slutar här*/
+
 main * {
     color: white;
 }
 
+main {
+    color: white;
+    background-color: rgba(60, 60, 60, 0.5);
+    margin: 2em;
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45em;
+}
+.text-container {
+    padding:2em;
+}
+
+.namnet-på-lurarna {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 1em;
+
+}
+.text-lurarna {
+    font-size: x-large; 
+    line-height: 40px;
+}
+button {
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 38px;
+    padding:0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin:1em;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color: rgb(31, 160, 225);
+    transition: background-color 0.1s;
+}
 /* footer css börjar här*/
 
 footer {
@@ -138,111 +180,6 @@ ul{
 
 /*footer css slutar här*/
 
-/* Här ovfanför är header och footer */
-
-
-.product-main {
-    display:flex;
-    color:white;
-}
-
-.pictures {
-    max-width: 40vw;
-    min-height: 40vw;
-    margin-top:2em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-
-}
-
-.pictures>img {
-    max-width: 16em;
-    max-height: 16em;
-}
-
-.product-article {
-    max-width: 60vw;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    line-height: 23px;
-    background-color: rgba(60, 60, 60, 0.5);
-    margin: 2em;
-}
-
-.product-article h3 {
-    padding:  2em 0 0 2em;
-}
-
-.product-article ul {
-    padding:  1em 0 3em 3em;
-}
-
-ul>li {
-    padding: 0.5em
-}
-
-/* Denna koden kan vi använda till knappen på main sen? */
-
-button {
-    background-color: rgb(47, 186, 255);
-    border: none;
-    border-radius: 0.2em;
-    font-size: 38px;
-    padding:0.2em;
-    margin:1em;
-    transition: background-color 0.1s;
-}
-
-button:hover {
-    background-color: rgb(31, 160, 225);
-    transition: background-color 0.1s;
-}
-
-/* @media (max-width: 1000px) { 
-    .pictures {
-        grid-template-areas:
-          "big-pic"
-          "small-pic1"
-          "small-pic2";
-    }
-    
-    .big-image, .small-image {
-        aspect-ratio: 1/1;
-    }
-} */
-
-@media (max-width: 720px) {
-    .product-main {
-        flex-direction: column;
-
-    }
-
-    .product-article {
-        max-width: 100vw;
-        padding: 1em;
-    }
-
-    .pictures {
-        max-width: 100vw;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .pictures>img:first-child {
-        margin-top: 1em;
-    }
-    /* .pictures {
-        width: 100vh;
-        flex-direction: column;
-    
-    } */
-
-}
-
 @media (max-width: 720px) {
     header {
         flex-direction: column;
@@ -258,7 +195,3 @@ button:hover {
     }
     
 }
-
-
-
-

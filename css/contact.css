@@ -56,7 +56,7 @@ header nav a:hover {
 /*header css slutar här*/
 
 body {
-    background-image: url(img/1.jpg);
+    background-image: url(/img/1.jpg);
     background-size: cover;
 }
 
@@ -64,16 +64,17 @@ main {
     margin: 2em;
     background-color: rgba(60, 60, 60, 0.5);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .header-info h1 {
-    margin-top: auto;
+    margin-top: 2em;
     color: white;
 }
 
 .header-info p {
-    margin-top: auto;
+    margin-top: 2em;
     color: white;
 }
 
@@ -84,10 +85,10 @@ main {
 }
 
 .header-info {
-    text-align: start;
-    width: 650px;
-    height: 250px;
+    max-width: 650px;
+    min-height: 250px;
     color: black;
+    padding: 1em;
 }
 
 .map img {
@@ -97,19 +98,18 @@ main {
 }
 
 .map .contact {
-    margin: auto;
+    margin: 2em;
     margin-top: 5em;
     color: white;
     padding: 1em;
-    line-height: 1.5;
 }
 
-.map .group {
-    margin: auto;
-    margin-top: 5em;
-    color: white;
-    padding: 1em;
-    line-height: 1.7;
+.map .contact h3 {
+    margin-top: 1em;
+}
+
+.map .contact a {
+    color: rgb(182, 182, 182);
 }
 
 
