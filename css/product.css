@@ -184,6 +184,10 @@ ul{
     margin: 2em;
 }
 
+.product-article h2 {
+    padding-bottom: 1em;
+}
+
 .product-article h3 {
     padding:  2em 0 0 2em;
 }
