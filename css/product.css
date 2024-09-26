@@ -208,7 +208,8 @@ button {
     border-radius: 0.2em;
     font-size: 38px;
     padding:0.2em;
-    margin:1em;
+    margin-right:5em;
+    margin-left: 5em;
     transition: background-color 0.1s;
 	box-shadow: 2px 2px 12px rgb(12, 12, 12);
 }
@@ -255,6 +256,12 @@ button:hover {
     }
 
     
+}
+
+@media (max-width: 1200px) {
+    button {
+        margin:0;
+    }
 }
 
 
