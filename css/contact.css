@@ -62,7 +62,7 @@ body {
 
 main {
     margin: 2em;
-    background-color: rgba(60, 60, 60, 0.5);
+    background-color: rgba(60, 60, 60, 0.8);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
