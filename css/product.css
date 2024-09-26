@@ -161,6 +161,7 @@ ul{
 .pictures>img {
     max-width: 16em;
     max-height: 16em;
+	box-shadow: 2px 2px 12px rgb(12, 12, 12);
     
 }
 
@@ -170,7 +171,7 @@ ul{
     flex-direction: column;
     padding: 2em;
     line-height: 23px;
-    background-color: rgba(60, 60, 60, 0.8);
+    background-color: rgba(60, 60, 60, 0.9);
     margin: 2em;
 }
 
@@ -196,6 +197,7 @@ button {
     padding:0.2em;
     margin:1em;
     transition: background-color 0.1s;
+	box-shadow: 2px 2px 12px rgb(12, 12, 12);
 }
 
 button:hover {
