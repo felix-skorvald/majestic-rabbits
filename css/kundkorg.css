@@ -72,8 +72,33 @@ header nav a:hover {
 
 /*header css slutar här*/
 
+.header-info {
+	margin: 4em;
+	margin-left: 60em;
+    background-color: rgba(60, 60, 60, 0.8);
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	color: white;
+	padding: 2em;
+}
+ 
+	
 
-
+button {
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 38px;
+    padding:0.2em;
+    margin-right:5em;
+    margin-left: 5em;
+    transition: background-color 0.1s;
+	box-shadow: 2px 2px 12px rgb(12, 12, 12);
+	color: white;
+}
 
 /* footer css börjar här*/
 
