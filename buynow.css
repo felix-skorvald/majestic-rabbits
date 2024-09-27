@@ -107,6 +107,7 @@ ul{
 .main-footer-container h3{
 	font-size: 1.5em;
 	margin-bottom: 0.5em;
+    color: #c567e5;
 }
 .container-container{
 	display: flex;
@@ -118,9 +119,6 @@ ul{
 }
 .contact-container li:hover {
 	color: #fddc1f;
-}
-.opening-hours {
-	color: #c567e5;
 }
 .opening-hours p:hover {
 	color: #fddc1f;	
