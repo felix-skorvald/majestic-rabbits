@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.background-image {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100vh;
+    width: 100%;
+    position: fixed;              
+    z-index: -1; 
+}
+
+header {
+    background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	
+}
+.company-name {
+	color: #c567e5;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.5em;
+	
+}
+
+.company-name:hover {
+	color: #fddc1f;
+}
+
+header nav a {
+	Margin: 2em;
+	font-family: "Roboto", sans-serif;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #c567e5;
+	
+}
+header nav a:hover {
+	margin: 2em;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #fddc1f;
+	
+}
+
+.cart {
+	margin-right: 3em;
+	cursor:pointer;
+}
+
+main * {
+    color: white;
+}
+
+/* footer css börjar här*/
+
+footer {
+    background-color: black;
+	padding: 3em;
+	margin: auto;
+	font-family: "Montagu Slab", serif;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.main-footer-container{
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-footer-container h3{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+.container-container{
+	display: flex;
+	cursor:pointer;
+}
+
+.contact-container {
+    color: #c567e5;
+	padding-right: 0.5em;
+	
+}
+
+
+
+.contact-container li:hover {
+    
+	color: #fddc1f;
+	
+}
+
+.opening-hours {
+	color: #c567e5;
+	
+	
+	
+}
+
+.opening-hours p:hover {
+	color: #fddc1f;
+	
+}
+
+.socials-container{
+	display: flex;
+	justify-content: space-between;
+	cursor:pointer;
+}
+.insta {
+	
+	margin: 1em;
+}
+
+
+/*footer css slutar här*/
+
+/* Här ovfanför är header och footer */
+
+
+.product-main {
+    display:flex;
+    color:white;
+}
+
+.pictures {
+    width: 40vw;
+    min-height: 40vw;
+    margin: 2em;
+    display: grid;
+    grid-template-areas:
+    "big-pic big-pic" 
+    "big-pic big-pic" 
+    "small-pic1 small-pic2";
+} 
+
+.big-pic {
+    grid-area: big-pic;
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.small-pic1 {
+    grid-area: small-pic1;
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.small-pic2 {
+    grid-area: small-pic2;
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.product-article {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    line-height: 23px;
+    background-color: rgba(60, 60, 60, 0.9);
+    margin: 2em;
+}
+
+.product-article h2 {
+    padding-bottom: 1em;
+}
+
+.product-article h3 {
+    padding:  2em 0 0 2em;
+}
+
+.product-article ul {
+    padding:  1em 0 3em 3em;
+}
+
+ul>li {
+    padding: 0.5em
+}
+
+/* Knappkod */
+
+button {
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 38px;
+    padding:0.2em;
+    margin-right:5em;
+    margin-left: 5em;
+    transition: background-color 0.1s;
+	box-shadow: 2px 2px 12px rgb(12, 12, 12);
+}
+
+button:hover {
+    background-color: rgb(31, 160, 225);
+    transition: background-color 0.1s;
+}
+
+/* media */
+
+@media (max-width: 870px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-main {
+        flex-direction: column;
+
+    }
+
+    .product-article {
+        max-width: 100vw;
+        padding: 1em;
+    }
+
+    .pictures {
+        max-width: 100vw;
+        place-items: center;
+        justify-content: center;
+        gap: 2em;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 2em;
+
+    }
+
+    .pictures>* {
+        width: 20em;
+        min-height: 20em;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    button {
+        margin:0;
+    }
+
+    .pictures {
+        max-width: 100vw;
+        grid-template-areas:
+        "big-pic" 
+        "small-pic1" 
+        "small-pic2";
+    }
+}
+
+
+
+
