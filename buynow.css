@@ -7,12 +7,61 @@
     line-height: 1.5;
 }
 body {
-    background-color: #000000;
+    background-color: #000000; 
+}
+main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    margin-top: 10em;  
+    margin-top: 10em; 
+    background-color: rgba(60, 60, 60, 0.9);
+    margin: 2em;
+    padding: 6em;
 }
+
+/*header css börjar här*/
+header {
+    background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em 5%;
+	flex-wrap: wrap;
+}
+.company-name {
+	color: #c567e5;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.5em;	
+}
+.company-name:hover {
+	color: #fddc1f;
+}
+header nav a {
+	margin: 2em;
+	font-family: "Roboto", sans-serif;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #c567e5;
+	flex-wrap: wrap;	
+}
+header nav a:hover {
+	margin: 2em;
+    text-decoration: none;
+	font-size: 1.6em;
+    color: #fddc1f;
+}
+.cart {
+	margin-right: 3em;
+	cursor:pointer;
+}
+/*header css slutar här*/
+
 .container-1 .product-image {
     display: flex;
     flex-direction: column;
@@ -21,7 +70,7 @@ body {
     margin-top: 1em;
 }
 .container-3 .button-1, .button-2 {
-    background-color: #c567e5;
+    background-color: rgb(47, 186, 255);
     padding: 0.5em;
     border: none;
     border-radius: 5px;
@@ -31,3 +80,57 @@ body {
     align-items: center;
     margin: 1em;
 }
+.container-3 .button-1:hover, .button-2:hover {
+    background-color: rgb(31, 160, 225);
+    transition: background-color 0.1s;
+}
+
+/* footer css börjar här*/
+footer {
+    background-color: black;
+	padding: 3em;
+	margin: auto;
+	font-family: "Montagu Slab", serif;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.main-footer-container{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.main-footer-container h3{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.container-container{
+	display: flex;
+	cursor:pointer;
+}
+.contact-container {
+    color: #c567e5;
+	padding-right: 0.5em;
+}
+.contact-container li:hover {
+	color: #fddc1f;
+}
+.opening-hours {
+	color: #c567e5;
+}
+.opening-hours p:hover {
+	color: #fddc1f;	
+}
+.socials-container{
+	display: flex;
+	justify-content: space-between;
+	cursor:pointer;
+}
+.insta {	
+	margin: 1em;
+}
+/*footer css slutar här*/
