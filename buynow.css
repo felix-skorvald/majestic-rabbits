@@ -9,15 +9,7 @@
 body {
     background-color: #000000; 
 }
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    margin-top: 10em; 
-    background-color: rgba(60, 60, 60, 0.9);
-    margin: 2em;
-    padding: 6em;
-}
+
 
 /*header css börjar här*/
 header {
@@ -61,6 +53,35 @@ header nav a:hover {
 	cursor:pointer;
 }
 /*header css slutar här*/
+.background-image {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100vh;
+    width: 100%;
+    position: fixed;              
+    z-index: -1; 
+}
+
+.grey-container {
+	background-color: rgba(60, 60, 60, 0.9);
+    margin: 2em;
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45em;
+	
+}
+
+
+
+.product-image {
+	margin-right: 60em;
+}
 
 .container-1 .product-image {
     display: flex;
@@ -69,16 +90,30 @@ header nav a:hover {
     gap: 1em;
     margin-top: 1em;
 }
-.container-3 .button-1, .button-2 {
+
+
+
+.information-1 {
+	
+	margin-left: 40em;
+
+}
+
+.information-2 {
+	
+}
+ .button-2 {
     background-color: rgb(47, 186, 255);
     padding: 0.5em;
     border: none;
     border-radius: 5px;
     font-size: x-large;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 1em;
+	margin-bottom: 3em;
+}
+.information-3 {
+	margin-left: 45em;
+
 }
 .container-3 .button-1:hover, .button-2:hover {
     background-color: rgb(31, 160, 225);
