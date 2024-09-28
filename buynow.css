@@ -6,18 +6,6 @@
     color: white;
     line-height: 1.5;
 }
-body {
-    background-color: #000000; 
-}
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    margin-top: 10em; 
-    background-color: rgba(60, 60, 60, 0.9);
-    margin: 2em;
-    padding: 6em;
-}
 
 /*header css börjar här*/
 header {
@@ -62,12 +50,28 @@ header nav a:hover {
 }
 /*header css slutar här*/
 
+body {
+    background-color: #000000; 
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-top: 10em; 
+    background-color: rgba(60, 60, 60, 0.9);
+    margin: 2em;
+    padding: 6em;
+}
 .container-1 .product-image {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
     margin-top: 1em;
+}
+.container-2, .container-3 {
+	margin-top: 12em;
+	margin-right: 10em;
 }
 .container-3 .button-1, .button-2 {
     background-color: rgb(47, 186, 255);
@@ -83,6 +87,9 @@ header nav a:hover {
 .container-3 .button-1:hover, .button-2:hover {
     background-color: rgb(31, 160, 225);
     transition: background-color 0.1s;
+}
+.container-3 .information-3 .table {
+	width: 100%;
 }
 
 /* footer css börjar här*/
