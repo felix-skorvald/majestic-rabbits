@@ -153,6 +153,25 @@ main {
     margin-bottom: 1em;
 }
 
+/* member button börjar här */
+.button {
+    background-color: rgb(47, 186, 255);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 38px;
+    padding:0.2em;
+    margin-right:5em;
+    margin-left: 5em;
+    transition: background-color 0.1s;
+	box-shadow: 2px 2px 12px rgb(12, 12, 12);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(31, 160, 225);
+    transition: background-color 0.1s;
+}
+/* member button slutar här*/
 
 /* footer css börjar här*/
 
@@ -245,3 +264,4 @@ ul{
     }
     
 }
+
