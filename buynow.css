@@ -6,13 +6,10 @@
     color: white;
     line-height: 1.5;
 }
-<<<<<<< HEAD
-=======
 body {
     background-color: #000000; 
 }
 
->>>>>>> 7fa7d79fcea4806878c1ca537db551a73b507506
 
 /*header css börjar här*/
 header {
@@ -105,27 +102,11 @@ main {
     gap: 1em;
     margin-top: 1em;
 }
-<<<<<<< HEAD
 .container-2, .container-3 {
 	margin-top: 12em;
 	margin-right: 10em;
 }
 .container-3 .button-1, .button-2 {
-=======
-
-
-
-.information-1 {
-	
-	margin-left: 40em;
-
-}
-
-.information-2 {
-	
-}
- .button-2 {
->>>>>>> 7fa7d79fcea4806878c1ca537db551a73b507506
     background-color: rgb(47, 186, 255);
     padding: 0.5em;
     border: none;
