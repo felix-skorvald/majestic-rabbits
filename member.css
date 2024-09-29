@@ -2,16 +2,29 @@
 body {
     background-color: black;
     color: #c567e5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.logo {
+	color: #c567e5;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.5em;
 }
 
 a {
     font-size: 50px;
     font-weight: bold;
+    margin-left: 2em;
     text-decoration: none;
     display: flex;
     justify-content: start;
-    margin-top: 2em;
-    margin-left: 3em;
     color: #c567e5;
 }
 
@@ -33,23 +46,31 @@ button:hover {
 }
 
 .group-name img {
-    width: 100px;
-    height: 100px; 
+    max-width: 100px;
+    min-height: 100px; 
 }
+
 h1 {
-    margin-top: 3em;
     text-align: center;
 }
+
 body .member {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
-    margin: 10em;
+    flex-wrap: wrap;
 }
 body .member img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    transition: 0.5s;
+}
+
+body .member img:hover {
+    width: 250px;
+    height: 250px;
+    transition: 0.5s;
 }
 /* group member slutar här */
