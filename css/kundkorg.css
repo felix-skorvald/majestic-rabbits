@@ -93,12 +93,12 @@ main {
  
 	
 
-button {
+.button {
     background-color: rgb(47, 186, 255);
     border: none;
     border-radius: 0.2em;
     font-size: 18px;
-    padding:0.2em;
+    padding:0.5em;
 	margin-top: 2em;
     margin-right:0.5em;
     margin-left: 0.5em;

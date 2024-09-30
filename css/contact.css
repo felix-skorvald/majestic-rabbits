@@ -103,7 +103,7 @@ main {
 }
 
 .image-map {
-    background-image: url(/img/maps.png);
+    background-image: url(../img/maps.png);
     background-size: cover;
     background-position: center;
     max-width: 20em;
@@ -114,7 +114,7 @@ main {
 }
 
 .image-house {
-    background-image: url(/img/house.png);
+    background-image: url(../img/house.png);
     background-size: cover;
     background-position: center;
     max-width: 35em;
