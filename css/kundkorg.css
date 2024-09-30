@@ -84,6 +84,11 @@ main {
     flex-direction: column;
 	color: white;
 	padding: 2em;
+    margin-bottom: 30em;
+}
+
+.header-info>h1 {
+    margin-bottom: 1em;
 }
  
 	
@@ -105,23 +110,43 @@ button {
 
 .kundkorg-info {
 
-	width: 550px;
-	height: 250px;
+	max-width: 550px;
+	min-height: 250px;
 	margin-top: 2em;
     margin-left: 2em;
     color: white;
-    padding: 1em;
+    padding: 2em;
 	display: flex;
+    flex-direction: column;
+}
+
+.kundkorg-info h2 {
+    margin-bottom: 2em;
+
 }
 
 .kundkorg-info .price {
+    display: flex;
     margin-left: 2em;
+    padding:1em;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.8);
+    border-top: 2px solid rgba(209, 209, 209, 0.8);
+    margin-bottom: 2em;
+}
+
+.price>div>p {
+    margin-bottom: 0.5em;
+}
+
+.price>div>p:last-child {
+    font-size: 30px;
 }
 
 .kundkorg-info .image {
     width: 150px;
 	height: 150px;
-    border: 2px black
+    border: 2px black;
+    margin-right: 1em;
 
 }
 
@@ -140,15 +165,11 @@ ul{
 }
 
 .main-footer-container{
-	
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	
-	
-	flex-wrap: wrap;
 }
 
 .main-footer-container h3{
@@ -205,12 +226,17 @@ ul{
     }
 
     main {
+        flex-direction: column;
         padding: 0;
     }
 
     nav {
         display: flex;
         flex-direction: column;
+    }
+
+    .header-info {
+        margin-bottom: 2em;
     }
     
 }

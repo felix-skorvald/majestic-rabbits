@@ -84,7 +84,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 45em;
+    margin-bottom: 20em;
 }
 .text-container {
     padding:2em;
