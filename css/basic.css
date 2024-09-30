@@ -83,10 +83,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20em;
+    margin-bottom: 23em;
 }
 .text-container {
     padding:2em;
+    padding-right: 10em;
+
 }
 
 .namnet-på-lurarna {
@@ -97,6 +99,7 @@ main {
 }
 .text-lurarna {
     line-height: 40px;
+    font-size: 18px;
 }
 
 button {
@@ -204,6 +207,7 @@ ul{
 
     .text-container {
         margin:0;
+        padding-right: 2em;
     }
 
     nav {
