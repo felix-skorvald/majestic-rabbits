@@ -72,15 +72,16 @@ header nav a:hover {
 
 /*header css slutar här*/
 
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
 .header-info {
-	margin: 4em;
-	margin-left: 60em;
+	margin: 2em;
     background-color: rgba(60, 60, 60, 0.8);
     display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
 	color: white;
 	padding: 2em;
 }
@@ -91,13 +92,37 @@ button {
     background-color: rgb(47, 186, 255);
     border: none;
     border-radius: 0.2em;
-    font-size: 38px;
+    font-size: 18px;
     padding:0.2em;
-    margin-right:5em;
-    margin-left: 5em;
+	margin-top: 2em;
+    margin-right:0.5em;
+    margin-left: 0.5em;
+	text-decoration: none;
     transition: background-color 0.1s;
 	box-shadow: 2px 2px 12px rgb(12, 12, 12);
 	color: white;
+}
+
+.kundkorg-info {
+
+	width: 550px;
+	height: 250px;
+	margin-top: 2em;
+    margin-left: 2em;
+    color: white;
+    padding: 1em;
+	display: flex;
+}
+
+.kundkorg-info .price {
+    margin-left: 2em;
+}
+
+.kundkorg-info .image {
+    width: 150px;
+	height: 150px;
+    border: 2px black
+
 }
 
 /* footer css börjar här*/
@@ -129,7 +154,6 @@ ul{
 .main-footer-container h3{
 	font-size: 1.5em;
 	margin-bottom: 0.5em;
-	
 }
 
 .container-container{
@@ -140,7 +164,6 @@ ul{
 .contact-container {
     color: #c567e5;
 	padding-right: 0.5em;
-	
 }
 
 
