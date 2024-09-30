@@ -10,7 +10,7 @@ body {
 }
 
 .background-image {
-    background-image: url(/img/3.jpg);
+    background-image: url(../img/3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,14 +167,14 @@ ul{
 
 .big-pic {
     grid-area: big-pic;
-    background-image: url(/img/1.jpg);
+    background-image: url(../img/1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .small-pic1 {
     grid-area: small-pic1;
-    background-image: url(/img/2.jpg);
+    background-image: url(../img/2.jpg);
     background-size: cover;
     background-position: center;
 
@@ -182,7 +182,7 @@ ul{
 
 .small-pic2 {
     grid-area: small-pic2;
-    background-image: url(/img/3.jpg);
+    background-image: url(../img/3.jpg);
     background-size: cover;
     background-position: center;
 
