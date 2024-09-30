@@ -66,7 +66,7 @@ header nav a:hover {
     z-index: -1; 
 }
 
-.grey-container {
+/*.grey-container {
 	background-color: rgba(60, 60, 60, 0.9);
     margin: 2em;
     padding: 6em;
@@ -75,7 +75,7 @@ header nav a:hover {
     align-items: center;
     padding-bottom: 45em;
 	
-}
+}*/
 
 
 
@@ -83,9 +83,9 @@ header nav a:hover {
 	margin-right: 60em;
 }
 
-body {
+/*body {
     background-color: #000000; 
-}
+}*/
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
