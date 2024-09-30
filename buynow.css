@@ -1,4 +1,4 @@
-* {
+/** {
     box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -172,5 +172,5 @@ ul{
 }
 .insta {	
 	margin: 1em;
-}
+} 
 /*footer css slutar här*/
