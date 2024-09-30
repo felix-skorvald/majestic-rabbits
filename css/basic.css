@@ -80,7 +80,6 @@ main {
     color: white;
     background-color: rgba(60, 60, 60, 0.9);
     margin: 2em;
-    padding: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,13 +92,13 @@ main {
 .namnet-på-lurarna {
     font-size: xx-large;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 
 }
 .text-lurarna {
-    font-size: x-large; 
     line-height: 40px;
 }
+
 button {
     background-color: rgb(47, 186, 255);
     border: none;
@@ -141,9 +140,6 @@ ul{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	
-	
-	flex-wrap: wrap;
 }
 
 .main-footer-container h3{
@@ -203,11 +199,22 @@ ul{
 
     main {
         padding: 0;
+        margin-bottom: 2em;
+    }
+
+    .text-container {
+        margin:0;
     }
 
     nav {
         display: flex;
         flex-direction: column;
+    }
+
+    button {
+        padding:0.2em;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
     }
     
 }
